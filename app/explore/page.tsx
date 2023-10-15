@@ -1,7 +1,9 @@
-export default function Home() {
+import Image from 'next/image'
+
+export default function page() {
   return (
-    <main className="font-extrabold">
-      Home
+    <div className="">
+      Explore
       <ul>
         <li>sadfadsh</li>
         <li>sadfadsh</li>
@@ -97,6 +99,6 @@ export default function Home() {
         <li>sadfadsh</li>
         <li>sadfadsh</li>
       </ul>
-    </main>
+    </div>
   )
 }
